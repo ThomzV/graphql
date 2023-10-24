@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet"  href="styles.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="title">GRAPHQL</div>
+    <button id="logout" class="button" type="submit">LOG OUT</button>
+    <div id="logincontainer">
+        <form id="loginform">
+            <div class="containertext">Login</div>
+                <input id="username-input" type="text" placeholder="username/email"></input>
+                <input id="password-input" type="password" placeholder="password"></input>
+                <button id="submit" class="button" type="submit">Login</button>
+                <div id="errordiv"></div>
+        </form>
+    </div>
+    <div id="app" style="display:none">
+        <div id="infoboxes">
+            <div id="userinfo" class="data2">
+                <div id="usertext" class="containertext">USER INFO</div>
+                <div id="username" class="tekst"></div>
+                <div id="email" class="tekst"></div>
+                <div id="name" class="tekst"></div>
+                <div id="telephone" class="tekst"></div>
+                <div id="country" class="tekst"></div>
+                <div id="lastproject" class="tekst"></div>
+                <div id="level" class="tekst"></div>
+            </div>
+            <div id="auditinfo" class="data2">
+                <div id="usertext" class="containertext">AUDIT DATA</div>
+                <div id="auditsdone" class="tekst"></div>
+                <div id="auditsreceived" class="tekst"></div>
+                <div id="auditsratio" class="tekst"></div>
+                <div id="auditscount" class="tekst"></div>
+                <div id="info2"></div>
+            </div>
+        </div>
+        <div id="skillsinfo" class="data">
+            <div id="usertext" class="containertext">MONTHLY XP PROGRESSION</div>
+             <svg id="linegraph"></svg>
+        </div>
+        <div id="piecontainer" class="data">
+            <div id="pietext" class="containertext"></div>
+                <div id="piechart">
+                    <svg id="xp" height="100%" width="100%" viewBox="0 0 300 300"></svg>
+                    <div id="info"></div>
+                </div>
+        </div> 
+        
+    </div>
+    <script src="server.js"></script>
+</body>
+</html>

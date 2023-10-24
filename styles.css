@@ -1,0 +1,173 @@
+html {
+    height: fit-content;
+    min-height: 100%;
+    background: url("https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#submit {
+    margin: 10px;
+    padding: 10px;
+}
+#username-input {
+    margin: 5px;
+}
+#errordiv {
+    font-size: 18px;
+    color: red;
+    min-height: 21px;
+}
+#logincontainer {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+#loginform {
+    background: #202125;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 10px 15px 10px white;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 37px;
+    margin-bottom: 94px;
+}
+#piechart {
+    height: 400px;
+    width: 400px;
+}
+#info {
+    position: absolute;
+    display: none;
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    pointer-events: none;
+    padding: 5px;
+    width: fit-content;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+}
+#info2 {
+    position: absolute;
+    display: none;
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    pointer-events: none;
+    padding: 5px;
+    width: fit-content;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+}
+#infoboxes {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 15px;
+    justify-content: space-around;
+}
+.containertext {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    color: white;
+}
+.data2 {
+    padding: 20px;
+    background: #202125;
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 0px 10px 15px 10px white;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+}
+.data {
+    padding: 20px;
+    background: #202125;
+    border-radius: 10px;
+    width: 700px;
+    height: 500px;
+    margin: 20px;
+    display: grid;
+    box-shadow: 0px 10px 15px 10px white;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    justify-items: center;
+}
+#app {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tekst {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: white;
+}
+#auditnumber {
+    display: inline;
+    cursor: pointer;
+    background: green;
+    padding: 5px;
+}
+.audit {
+    width: fit-content;
+}
+#linegraph {
+   width: fit-content;
+   height: fit-content;
+}
+svg {
+    width: fit-content;
+   height: fit-content;
+}
+#skillsinfo {
+    justify-content: start;
+}
+.circle {
+    cursor: pointer;
+}
+#logout {
+    float: right;
+    top: 35px;
+    right: 42px;
+    position: absolute;
+    display: none;
+}
+.button {
+    padding: 6px 10px;
+    background-color: #555;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+}
+#username-input, #password-input {
+    margin: 10px;
+    text-align: center;
+}
